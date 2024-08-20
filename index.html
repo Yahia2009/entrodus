@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="inup">
+    <div class="up">
+        <h1 class="h11">wellcom to my web-sit</h1>
+    </div>
+    
+</div>
+<div class="pa">
+    <input type="checkbox" name="" id="ch">
+<p id=""class="p1">
+Hello ther, I am Yahia a guy from Algeria<br> who tries to learn programming in the least time possible. <br>
+I'm also nterested in Chess, science fiction,quantum physics. <br>
+My plan is to start with Python then JavaScript or lern them in the same time, <br> after that I learn nodejs and start working online. <br>
+While working, I'll study PHP then C++ which will take a lang tyme.
+</p>
+<p class="p2">
+    - I am Yahia from Algeria. <br>
+    - My gole is to learn programming. <br>
+    - I like Chess, science fiction and quantum physics. <br>
+    - 1st : Python, JavaScript then nodejs. <br>
+    - 2nd : start working online, PHP. <br>
+    - 3rd : C++.
+</p>
+<label for="ch">
+    <h1 class="ho"><-></h1>
+</label>
+</div>
+
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+            background: rgb(10, 9, 26);
+            border: 0;
+        }
+
+    .inup{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-top:30px;
+        padding: 0;
+        width: 100%;
+        height: 10vh;
+
+    }
+.up{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: 40px;
+    height: 10vh;
+    width: 65%;
+    background: rgb(255, 186, 82);
+    border-bottom-left-radius: 30px;
+    border-radius: 30px;
+    border: 0;
+
+}
+.h11{
+    margin: 0;
+    color:rgb(0, 20, 136) ;
+    font-size: 33.5px;
+}
+.pa{
+    color: white;
+    background: rgb(0, 23, 153);
+    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    height: 60vh;
+    padding-right: 15px;
+    width: 70%;
+    margin-left: 15%;
+    overflow-y:auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-left: 40px;
+
+}
+input{
+    display: none;
+}
+.p2{display: none;}
+input:checked ~ .p1{
+        display: none;
+    }
+    input:checked ~ .p2{
+        display: block;
+    }
+    .p1{
+        margin-bottom:auto ;
+        margin-right: auto;
+    }
+    .p2{
+        margin-bottom: auto;
+        margin-right: auto;
+
+    }
+    .ho{
+        margin-top: auto;
+        
+        background:red;
+        
+        border-radius: 1000px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-right: 3px;
+        
+        width: 150px;
+        height:90px;
+        text-align: center;
+        
+    }
+.ho:hover{
+    color: blue;
+}
+
+    </style>
+</body>
+</html>
